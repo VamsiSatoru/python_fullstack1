@@ -24,11 +24,11 @@ let name = document.getElementById("name").value;
 let email = document.getElementById("email").value;
 let password = document.getElementById("password").value;
 if(!name || !email || !password){
-    alert("PLease fill in all fields.")
+    alert("PLease fill in all fields.");
     return;
 }    
 alert("Registration Scuccesful!");
 console.log("Name:", name);
 console.log("Email:",email);
 console.log("Password:",password);
-})
+});
