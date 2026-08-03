@@ -21,3 +21,8 @@ env\Script\activate -->windows direct vscode
 pip install flask
 pip freeze > requirements.txt
 pip install -r requirements.txt
+
+. env/bin/activate
+(env) billa@EliteBook:-/Sriram_repos/
+Python_fullstack12 % python3 app.py
+python3 app.py
