@@ -22,7 +22,7 @@ def trainers():
 def contact():
     return render_template("contact.html")
 
-@app.route('/register')
+@app.route('/register', methods=["POST","GET"])
 def register():
    if request.method=='POST':
        name=request.form['name']
