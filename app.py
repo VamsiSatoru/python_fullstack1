@@ -9,10 +9,8 @@ app.secret_key="super_secret_key"
 def get_db_connection():
     conn = sqlite3.connect("users.db")
     conn.row_factory = sqlite3.Row
-    # return row as dictionary 
     return conn
  
-# create database tables
 def init_db():
     conn = get_db_connection()
     cursor = conn.cursor()
