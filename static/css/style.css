@@ -73,8 +73,8 @@ p {
 }
 
 .banner {
-    width: 40%;
-    height: 400px;
+    width: 80%;
+    height: 200px;
     margin-bottom: 20px;
 }
 
@@ -327,7 +327,7 @@ article{
 
 img{
 
-max-width:50%;
+max-width:100%;
 
 height:auto;
 
